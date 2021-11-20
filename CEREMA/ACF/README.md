@@ -1,4 +1,5 @@
 # plan des réseaux de chauffage
+![](images/heating_network_DLCFd.png)
 
 # vannes d'équilibrage dans vide sanitaire 
 ![](images/equi1.jpg)
