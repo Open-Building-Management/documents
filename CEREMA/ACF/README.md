@@ -13,7 +13,7 @@
 
 ![](images/labo.png)
 
-# vannes d'équilibrage dans vide sanitaire 
+# vannes de réglage de pression différentielle dans vide sanitaire 
 ![](images/equi1.jpg)
 ![](images/equi2.jpg)
 ![](images/equi3.jpg)
