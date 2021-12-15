@@ -2,10 +2,51 @@
 
 # Instrumentation du collège Marc Bloch à Cournon
 
-On a instrumenté 2 circuits desservant respectivement les ailes nord et sud de la sous-station ouest de l’externat (bâtiment d'enseignement)
+En février 2021, on a instrumenté 2 circuits desservant respectivement les ailes nord et sud de la sous-station ouest de l’externat (bâtiment d'enseignement).
 
-Pour chaque circuit, on a mis en place un capteur au rez de chaussée et un autre à l'étage.
+Pour chaque circuit, on a mis en place :
+- 2 PT100 pour apprécier les températures de départ et de retour de l'eau chaude
+- un capteur au rez de chaussée et un autre à l'étage pour tenter d'objectiver le confort thermique
 
 ![rect928](https://user-images.githubusercontent.com/24553739/146272875-79bd0519-467f-41e0-8be0-c89fcd897db4.png)
+
+# Tour d'horizon des différentes stratégies de gestion de l'intermittence les plus courantes
+
+Il existe principalement 4 grandes familles de programmation d'intermittence, toutes plus ou moins empiriques. Les réglages sont généralement effectués à dires d'expert.
+
+## abaissement de courbe de chauffe
+
+    Avec un tel mode de régulation, on parle de ralenti plus que de coupure.
+    En période d’inoccupation, on continue toujours à fournir en permanence de la chaleur au bâtiment, 
+    moins qu’en période d’occupation, mais en quantité suffisante pour ne pas permettre 
+    un abaissement rapide de la température intérieure.
+
+Le ralenti consiste en un changement de courbe de chauffe pour les périodes d’inoccupation. 
+
+Avec une production dimensionnée pour un régime d’eau 90/70°, on considère souvent qu’une variation de température d’eau de 4 à 5°C entraîne une variation de température ambiante de 1°C. 
+
+Le décalage de courbe de chauffe est donc généralement de l'ordre de -20°C, afin de ne pas laisser la température intérieure descendre en dessous de 16°C (cas d'une consigne de 20°C pour la température intérieure)
+
+## coupure et relance à heures fixes
+
+- fonctionnement normal du chauffage en période d’occupation (par exemple loi d'eau sur la température extérieure)
+- arrêt complet du chauffage (arrêt des chaudières, fermeture des vannes mélangeuses, arrêt des circulateurs, …) en fin de période d’occupation,
+- relance du chauffage à allure réduite pendant la période d’inoccupation, par exemple si la température extérieure descend en dessous d'une certaine valeur limite. Les installations les plus récentes peuvent utiliser des sondes d'ambiance pour mesurer la température intérieure, et ainsi déclencher la relance si la température intérieure est en dessous de valeurs seuils (16° en semaine et 14° le week-end)
+- relance du chauffage, à pleine puissance un peu avant l'ouverture des locaux.
+
+## optimiseur non autoadaptatif
+
+Par rapport à la coupure/relance à heures fixes, les optimiseurs font varier le moment de ces dernières en fonction de la température extérieure et de la température intérieure si elle est mesurée. 
+
+Lorsqu’il fait plus chaud : 
+- le refroidissement du bâtiment est plus lent : l'heure de coupure peut donc être avancée
+- la température intérieure atteinte durant l’inoccupation est moins basse et l’énergie nécessaire à la relance est plus faible : l'heure de la relance peut donc être retardée.
+
+La paramétrisation de ce type de programmateur reste délicate, en effet, il faut procéder par essais – erreurs, puisque plusieurs paramètres importants restent inconnus de l’utilisateur : l’inertie thermique du bâtiment, le degré de surpuissance du chauffage.
+
+## optimiseur autoadaptatif
+
+Le programmateur adapte automatiquement ses paramètres de réglage au jour le jour, en fonction des résultats qu’il a obtenu les jours précédents. 
+**Par rapport à un optimiseur non autoadaptatif bien réglé, l’optimiseur autoadaptatif n’apportera pas d’économie d’énergie complémentaire. Son rôle est de faciliter (l’utilisateur ne doit plus intervenir) et donc d’optimaliser le réglage.**
 
 
