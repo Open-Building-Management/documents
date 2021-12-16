@@ -53,5 +53,22 @@ D'une manière générale, si l'on veut faire des économies d'énergie, il est 
 
 Procéder à un équilibrage des différentes zones de chaque circuit est une opération utile si l'on dispose de vannes d'équilibrage positionnées aux endroits stratégiques. En cas de déséquilibre prononcé sur un circuit, le pilotage doit se faire en utilisant comme témoin la zone où le confort thermique est le moins bon, au risque de dégrader le confort de manière prononcée. On parle de pilotage au plus défavorable, ce qui ne permet pas de maximiser les économies d'énergie.
 
+# de la stratégie d'intermittence suivie par les régulateurs de la sous-station ouest de l’externat
+
+La stratégie utilisée sur le collège Marc Bloch ne repose pas sur l'utilisation de mesures de température intérieure pour réguler la distribution de l'eau chaude. On est donc plutôt sur un système de type coupure et relance à heures fixes. 
+
+# de la stratégie d'intermittence suivie par les régulateurs de la sous-station ouest de l’externat
+
+Le système ne fonctionne pas en utilisant des mesures de température intérieure pour réguler la distribution de l'eau chaude. On est donc plutôt sur un système de type coupure et relance à heures fixes. 
+
+Le graphique ci-dessous représente la température d'eau chaude distribuée lors de la première semaine de chauffage sur la saison 2021/2022.
+
+![image](https://user-images.githubusercontent.com/24553739/140605700-75aa51b8-ad9f-46f0-9261-5f0eca2d3e45.png)
+
+Le chauffage est allumé le vendredi 8 Octobre, coupé dans la soirée puis le dimanche, le fonctionnement réduit commence. On constate une coupure du réduit dans l'après-midi du dimanche, certainement en raison d'une météo clémente puis une reprise vers 21 h en soirée. 
+
+Ce sont ensuite des cycles journaliers de 12h qui se succèdent, commencant à 6h du matin pour se terminer à 6 heures du soir. Le système semble fonctionner à pleine puissance jusqu'à 9h puis de manière réduite ensuite, certainement suivant une loi d'eau de distribution. **En semaine, le chauffage est coupé la nuit : il n'y a pas de réduit de semaine et le système compte sur la relance à pleine puissance du matin pour avoir la bonne température à l'ouverture du bâtiment.**
+
+
 
 
