@@ -55,15 +55,11 @@ Procéder à un équilibrage des différentes zones de chaque circuit est une op
 
 # de la stratégie d'intermittence suivie par les régulateurs de la sous-station ouest de l’externat
 
-La stratégie utilisée sur le collège Marc Bloch ne repose pas sur l'utilisation de mesures de température intérieure pour réguler la distribution de l'eau chaude. On est donc plutôt sur un système de type coupure et relance à heures fixes. 
-
-# de la stratégie d'intermittence suivie par les régulateurs de la sous-station ouest de l’externat
-
-Le système ne fonctionne pas en utilisant des mesures de température intérieure pour réguler la distribution de l'eau chaude. On est donc plutôt sur un système de type coupure et relance à heures fixes. 
+La stratégie déployée à Marc Bloch ne repose pas sur des mesures de température intérieure pour réguler la distribution de l'eau chaude. On est donc plutôt sur un système de type coupure et relance à heures fixes. 
 
 Le graphique ci-dessous représente la température d'eau chaude distribuée lors de la première semaine de chauffage sur la saison 2021/2022.
 
-![image](https://user-images.githubusercontent.com/24553739/140605700-75aa51b8-ad9f-46f0-9261-5f0eca2d3e45.png)
+![](https://user-images.githubusercontent.com/24553739/146343944-e885fa67-7bbd-41e7-a009-a19d54203e22.png)
 
 Le chauffage est allumé le vendredi 8 Octobre, coupé dans la soirée puis le dimanche, le fonctionnement réduit commence. On constate une coupure du réduit dans l'après-midi du dimanche, certainement en raison d'une météo clémente puis une reprise vers 21 h en soirée. 
 
