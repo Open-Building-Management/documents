@@ -8,7 +8,8 @@ Pour chaque circuit, on a mis en place :
 - 2 PT100 pour apprécier les températures de départ et de retour de l'eau chaude
 - un capteur au rez de chaussée et un autre à l'étage pour tenter d'objectiver le confort thermique
 
-![rect928](https://user-images.githubusercontent.com/24553739/146272875-79bd0519-467f-41e0-8be0-c89fcd897db4.png)
+![bloch](https://user-images.githubusercontent.com/24553739/146335913-1ad28292-2b44-46b8-aa90-fdcd62b92b8a.png)
+
 
 # Tour d'horizon des différentes stratégies de gestion de l'intermittence les plus courantes
 
@@ -36,17 +37,21 @@ Le décalage de courbe de chauffe est donc généralement de l'ordre de -20°C, 
 
 ## optimiseur non autoadaptatif
 
-Par rapport à la coupure/relance à heures fixes, les optimiseurs font varier le moment de ces dernières en fonction de la température extérieure et de la température intérieure si elle est mesurée. 
+Par rapport à une stratégie avec horaires fixes, les optimiseurs ajustent quotidiennement le moment des coupures/relances en fonction de la température extérieure et de la température intérieure si elle est mesurée. 
 
 Lorsqu’il fait plus chaud : 
 - le refroidissement du bâtiment est plus lent : l'heure de coupure peut donc être avancée
 - la température intérieure atteinte durant l’inoccupation est moins basse et l’énergie nécessaire à la relance est plus faible : l'heure de la relance peut donc être retardée.
 
-La paramétrisation de ce type de programmateur reste délicate, en effet, il faut procéder par essais – erreurs, puisque plusieurs paramètres importants restent inconnus de l’utilisateur : l’inertie thermique du bâtiment, le degré de surpuissance du chauffage.
+La paramétrisation de ce type de programmateur reste délicate : en effet, il faut procéder par tatonnements, puisque plusieurs paramètres importants restent inconnus de l’utilisateur : l’inertie thermique du bâtiment, son isolation, le degré de surpuissance du chauffage. Seul un bon monitoring temps réel permet un ajustement adéquat. 
 
 ## optimiseur autoadaptatif
 
 Le programmateur adapte automatiquement ses paramètres de réglage au jour le jour, en fonction des résultats qu’il a obtenu les jours précédents. 
 **Par rapport à un optimiseur non autoadaptatif bien réglé, l’optimiseur autoadaptatif n’apportera pas d’économie d’énergie complémentaire. Son rôle est de faciliter (l’utilisateur ne doit plus intervenir) et donc d’optimaliser le réglage.**
+
+L'auto-apprentissage semble séduisant à première vue, mais la pertinence des réglages dépendra de la qualité des échantillons de données qu'on fournira en entrée. Un bon monitoring est donc là-aussi indispensable pour s'assurer que l'algorithme n'apprend pas en se fondant sur des données peu représentatives.
+
+D'une manière générale, si l'on veut faire des économies d'énergie, il est indispensable que le réseau hydraulique du bâtiment soit bien réglé et procéder à un équilibrage des différentes zones de chaque circuit est une opération utile si l'on dispose de vannes d'équilibrage positionnées aux endroits stratégiques. En cas de déséquilibre prononcé sur un circuit, le pilotage doit se faire en utilisant comme témoin la zone où le confort thermique est le moins bon, au risque de dégrader le confort de manière prononcée, ce qui ne permet pas de maximiser les économies d'énergie.
 
 
