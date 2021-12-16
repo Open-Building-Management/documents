@@ -70,6 +70,9 @@ Ce sont ensuite des cycles journaliers de 12h qui se succèdent, commencant à 6
 
 Le système semble fonctionner à pleine puissance jusqu'à 8h puis de manière réduite ensuite, certainement suivant une loi d'eau de distribution. **En semaine, le chauffage est coupé la nuit : il n'y a pas de réduit de semaine et le système compte sur la relance à pleine puissance du matin pour avoir la bonne température à l'ouverture du bâtiment.**
 
+## zoom sur une journée plus froide
+
+![](https://user-images.githubusercontent.com/24553739/146346683-401bde83-13e3-4d87-aa10-25da4165b407.png)
 
 
 
