@@ -15,14 +15,9 @@ Pour chaque circuit, on a mis en place :
 
 Il existe principalement 4 grandes familles de programmation d'intermittence, toutes plus ou moins empiriques. Les réglages sont généralement effectués à dires d'expert.
 
-## abaissement de courbe de chauffe
+## ralenti
 
-    Avec un tel mode de régulation, on parle de ralenti plus que de coupure.
-    En période d’inoccupation, on continue toujours à fournir en permanence de la chaleur au bâtiment, 
-    moins qu’en période d’occupation, mais en quantité suffisante pour ne pas permettre 
-    un abaissement rapide de la température intérieure.
-
-Le ralenti consiste en un changement de courbe de chauffe pour les périodes d’inoccupation. 
+Le ralenti consiste en un abaissement de courbe de chauffe pour les périodes d’inoccupation : en période d’inoccupation, on continue toujours à fournir en permanence de la chaleur au bâtiment, moins qu’en période d’occupation, mais en quantité suffisante pour ne pas permettre un abaissement rapide de la température intérieure.
 
 Avec une production dimensionnée pour un régime d’eau 90/70°, on considère souvent qu’une variation de température d’eau de 4 à 5°C entraîne une variation de température ambiante de 1°C. 
 
@@ -52,6 +47,9 @@ Le programmateur adapte automatiquement ses paramètres de réglage au jour le j
 
 L'auto-apprentissage semble séduisant à première vue, mais la pertinence des réglages dépendra de la qualité des échantillons de données qu'on fournira en entrée. Un bon monitoring est donc là-aussi indispensable pour s'assurer que l'algorithme n'apprend pas en se fondant sur des données peu représentatives.
 
-D'une manière générale, si l'on veut faire des économies d'énergie, il est indispensable que le réseau hydraulique du bâtiment soit bien réglé et procéder à un équilibrage des différentes zones de chaque circuit est une opération utile si l'on dispose de vannes d'équilibrage positionnées aux endroits stratégiques. En cas de déséquilibre prononcé sur un circuit, le pilotage doit se faire en utilisant comme témoin la zone où le confort thermique est le moins bon, au risque de dégrader le confort de manière prononcée, ce qui ne permet pas de maximiser les économies d'énergie.
+## gestion de l'intermittence et économies d'énergie
+
+D'une manière générale, si l'on veut faire des économies d'énergie, il est indispensable que le réseau hydraulique du bâtiment soit bien réglé. Procéder à un équilibrage des différentes zones de chaque circuit est une opération utile si l'on dispose de vannes d'équilibrage positionnées aux endroits stratégiques. En cas de déséquilibre prononcé sur un circuit, le pilotage doit se faire en utilisant comme témoin la zone où le confort thermique est le moins bon, au risque de dégrader le confort de manière prononcée. On parle de pilotage au plus défavorable, ce qui ne permet pas de maximiser les économies d'énergie.
+
 
 
