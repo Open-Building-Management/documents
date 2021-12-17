@@ -100,10 +100,11 @@ D'une manière générale, le confort est assez contrasté : on constate que lor
 Salle de technologie<br>B209 | ![](https://user-images.githubusercontent.com/24553739/146554010-65cbdec6-7035-461f-b6c1-384178cfae7d.png)
 --|--
 <b>Salle de musique<br>B101<b> | ![](https://user-images.githubusercontent.com/24553739/146555284-d42b982d-1099-4532-b213-2058df919086.png)
-
+  
 ### Cas de la mi-saison
 
 Avant la mise en route du chauffage, on peut percevoir un certain inconfort dans le bâtiment au niveau de l'aile nord : 16°C au rez-de-chaussée et 17°C à l'étage à 8 heures du matin
+
 ![](https://user-images.githubusercontent.com/24553739/146561280-12ad152b-542b-4cc7-9a45-37aa86b36a4f.png)
 
 ## Circuit Sud
