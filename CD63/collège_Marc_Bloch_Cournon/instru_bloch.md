@@ -52,7 +52,8 @@ L'auto-apprentissage semble séduisant à première vue, mais la pertinence des 
 
 D'une manière générale, si l'on veut faire des économies d'énergie, il est indispensable que le réseau hydraulique du bâtiment soit bien réglé. 
 
-Procéder à un équilibrage des différentes zones de chaque circuit est une opération utile si l'on dispose de vannes d'équilibrage positionnées aux endroits stratégiques. En cas de déséquilibre prononcé sur un circuit, le pilotage doit se faire en utilisant comme témoin la zone où le confort thermique est le moins bon, au risque de dégrader le confort de manière prononcée. 
+Procéder à un équilibrage des différentes zones de chaque circuit est une opération utile si l'on dispose de vannes d'équilibrage positionnées aux endroits stratégiques. 
+En cas de déséquilibre prononcé sur un circuit, le pilotage sur la base de données de temperature intérieure doit se faire en utilisant comme témoin la zone où le confort thermique est le moins bon, au risque de dégrader le confort de manière prononcée. 
 
 On parle de **pilotage au plus défavorable**, ce qui ne permet pas de maximiser les économies d'énergie.
 
