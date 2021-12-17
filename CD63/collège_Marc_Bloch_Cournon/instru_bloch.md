@@ -66,9 +66,14 @@ Le graphique ci-dessous représente la température d'eau chaude distribuée lor
 Le chauffage est allumé le vendredi 8 octobre, coupé dans la soirée puis le dimanche, le fonctionnement réduit commence. On constate une coupure du réduit dans l'après-midi du dimanche, certainement en raison d'une météo clémente puis une reprise vers 21 h en soirée. 
 
 Ce sont ensuite des cycles journaliers de 12h qui se succèdent, commencant à 6h du matin pour se terminer à 6 heures du soir. 
-journée du 11 octobre 2021 | journée du 14 décembre 2021
---|--
-![](https://user-images.githubusercontent.com/24553739/146344774-1b142efb-3b0a-4793-85af-b69d1d8fcc5c.png) | ![](https://user-images.githubusercontent.com/24553739/146346683-401bde83-13e3-4d87-aa10-25da4165b407.png)
+
+## journée du 11 octobre 2021
+
+![](https://user-images.githubusercontent.com/24553739/146344774-1b142efb-3b0a-4793-85af-b69d1d8fcc5c.png) | 
+
+## journée du 14 décembre 2021
+
+![](https://user-images.githubusercontent.com/24553739/146346683-401bde83-13e3-4d87-aa10-25da4165b407.png)
 
 Le système fonctionne à pleine puissance jusqu'à 8h puis de manière réduite ensuite, certainement suivant une loi d'eau de distribution. **En semaine, le chauffage est coupé la nuit : il n'y a pas de réduit de semaine et le système compte sur la relance à pleine puissance du matin pour avoir la bonne température à l'ouverture du bâtiment.**
 
