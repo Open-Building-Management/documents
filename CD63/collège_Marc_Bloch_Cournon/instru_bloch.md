@@ -76,6 +76,10 @@ Le système semble fonctionner à pleine puissance jusqu'à 8h puis de manière 
 
 # analyse du confort thermique d'hiver
 
+Le chauffage a été mis en route le 8 octobre et l'hiver s'est installé véritablement début novembre 2021 : pour les 6 semaines depuis début novembre, les températures extérieures sont inférieures à 10°C près de 90% du temps
+
+![](https://user-images.githubusercontent.com/24553739/146554347-043b7257-4f8d-484f-978c-7c53a8e4a2b6.png)
+
 ## circuit nord
 
 ![](https://user-images.githubusercontent.com/24553739/146536002-9da5e0e2-b554-4d60-9d94-16ddf1c81941.png)
@@ -88,7 +92,13 @@ La différence de température entre le départ et le retour n'est pas perceptib
 
 On constate beaucoup de chutes de températures dues aux directives d'aération COVID, notamment dans la salle de technologie de l'étage (B209). Ces phénomènes viennent perturber la lecture des graphiques.
 
-Le rez-de-chaussée perd en température beaucoup plus rapidement que l'étage : lors des coupures nocturnes, la température descend jusqu'à 15°C alors qu'à l'étage on ne relève en général moins moins de 18°C, sauf s'il y a eu une aération très efficace dans la journée.
+Le rez-de-chaussée perd en température beaucoup plus rapidement que l'étage : lors des coupures nocturnes, la température descend jusqu'à 15°C alors qu'à l'étage le minimum est voisin de 18°C, sauf s'il y a eu une aération très efficace dans la journée.
+
+### salle de technologie B209
+![](https://user-images.githubusercontent.com/24553739/146554010-65cbdec6-7035-461f-b6c1-384178cfae7d.png)
+
+### salle de musique B101
+![](https://user-images.githubusercontent.com/24553739/146555284-d42b982d-1099-4532-b213-2058df919086.png)
 
 
 
