@@ -92,9 +92,9 @@ La différence de température entre le départ et le retour n'est pas perceptib
 
 On constate beaucoup de chutes de températures dues aux directives d'aération COVID, notamment dans la salle de technologie de l'étage (B209). Ces phénomènes viennent perturber la lecture des graphiques.
 
-Lors des coupures nocturnes, la température au rez-de-chaussée descend jusqu'à 15°C alors qu'à l'étage le minimum est voisin de 18°C, sauf s'il y a eu une aération très efficace dans la journée. Ce phénomène est soit naturel puisque la chaleur à tendance à monter soit imputable à une différence d'isolation entre étage et rez-de-chaussée que nous n'avons pas su percevoir.
+Lors des coupures nocturnes, la température au rez-de-chaussée descend jusqu'à 15°C alors qu'à l'étage le minimum est voisin de 18°C, sauf s'il y a eu une aération très efficace dans la journée. Cet écart entre entre étage et rez-de-chaussée est soit naturel puisque la chaleur à tendance à monter soit imputable à une différence d'isolation que nous n'avons pas su percevoir.
 
-L'effet des réduits de weekend est très perceptible : dès que le réduit se met en oeuvre, la température intérieure se stabilise à 19°C au rez-de-chaussée et à 20°C à l'étage. Le système n'a alors guère d'effort à faire pour être à la bonne température le lundi matin. Ce réduit pourrait être abaissé ou retardé car la puissance disponible pour remonter en température semble suffisante.
+L'effet des réduits de week-end est très perceptible : dès que le réduit se met en oeuvre, la température intérieure se stabilise à 19°C au rez-de-chaussée et à 20°C à l'étage. Le système n'a alors guère d'effort à faire pour être à la bonne température le lundi matin. Ce réduit pourrait être abaissé ou retardé car la puissance disponible pour remonter en température semble suffisante.
 
 ### Salle de technologie B209
 ![](https://user-images.githubusercontent.com/24553739/146554010-65cbdec6-7035-461f-b6c1-384178cfae7d.png)
