@@ -108,11 +108,11 @@ Avant la mise en route du chauffage, on peut percevoir un certain inconfort dans
 
 ## Circuit Sud
 
+![](https://user-images.githubusercontent.com/24553739/146581831-2637e1a8-0742-4beb-bded-6f66e663c80b.png)
 
+Le circuit fonctionne correctement et lors de la distribution de chaleur, on perçoit nettement un delta de température entre départ et retour de l'ordre de 10°C.
 
+![](https://user-images.githubusercontent.com/24553739/146582169-b99507ea-3fb9-4ca7-8d64-94df714824d2.png)
 
-
-
-
-
-
+Lors des coupures nocturnes, l'écart entre l'étage et le rez-de-chaussée est moins important que sur l'aile nord : 1°C seulement alors qu'on peut avoir 4 à 5°C côté nord
+En général, la température intérieure ne descend pas en dessous de 17°C.
