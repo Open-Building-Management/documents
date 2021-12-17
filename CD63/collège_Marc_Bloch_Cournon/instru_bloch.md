@@ -42,7 +42,7 @@ La paramétrisation de ce type de programmateur reste délicate : en effet, il f
 
 ## Optimiseur autoadaptatif
 
-Le programmateur adapte automatiquement ses paramètres de réglage au jour le jour, en fonction des résultats qu’il a obtenu les jours précédents. 
+Le programmateur se règle automatiquement au jour le jour, en fonction des résultats qu’il a obtenu les jours précédents. 
 **Par rapport à un optimiseur non autoadaptatif bien réglé, l’optimiseur autoadaptatif n’apportera pas d’économie d’énergie complémentaire. 
 Son rôle est de trouver tout seul les bons réglages, sans nécessiter d'intervention humaine.**
 
