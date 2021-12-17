@@ -74,7 +74,7 @@ Le système semble fonctionner à pleine puissance jusqu'à 8h puis de manière 
 
 ![](https://user-images.githubusercontent.com/24553739/146346683-401bde83-13e3-4d87-aa10-25da4165b407.png)
 
-# Analyse du confort thermique d'hiver
+# Analyse du confort thermique
 
 Le chauffage a été mis en route le 8 octobre et l'hiver s'est installé véritablement début novembre 2021 : pour les 6 semaines depuis début novembre, les températures extérieures sont inférieures à 10°C près de 90% du temps
 
@@ -101,6 +101,11 @@ L'effet des réduits de week-end est très perceptible : dès que le réduit se 
 
 ### Salle de musique B101
 ![](https://user-images.githubusercontent.com/24553739/146555284-d42b982d-1099-4532-b213-2058df919086.png)
+
+### cas de la mi-saison
+Avant que le chauffage soit allumé, on peut percevoir un certain inconfort dans le bâtiment au nibveau de l'aile nord
+![](https://user-images.githubusercontent.com/24553739/146561280-12ad152b-542b-4cc7-9a45-37aa86b36a4f.png)
+
 
 
 
