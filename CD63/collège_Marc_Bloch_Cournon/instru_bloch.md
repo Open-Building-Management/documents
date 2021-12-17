@@ -74,5 +74,26 @@ Le système semble fonctionner à pleine puissance jusqu'à 8h puis de manière 
 
 ![](https://user-images.githubusercontent.com/24553739/146346683-401bde83-13e3-4d87-aa10-25da4165b407.png)
 
+# analyse du confort thermique d'hiver
+
+## circuit nord
+
+![](https://user-images.githubusercontent.com/24553739/146536002-9da5e0e2-b554-4d60-9d94-16ddf1c81941.png)
+
+La différence de température entre le départ et le retour n'est pas perceptible, en raison d'une vanne de pression différentielle défaillante entre le départ et le retour. Celà a été vérifié lors d'une visite sur site le 17 décembre 2021 : la vanne semble bloquée en position ouverte. On peut envisager :
+- de remplacer la vanne
+- de l'effacer et de mettre en place des bouchons
+
+![](https://user-images.githubusercontent.com/24553739/146538391-21cd6cac-ea91-4a62-a25d-ac8d57914bd1.png)
+
+On constate beaucoup de chutes de températures dues aux directives d'aération COVID, notamment dans la salle de technologie de l'étage (B209). Ces phénomènes viennent perturber la lecture des graphiques.
+
+Le rez-de-chaussée perd en température beaucoup plus rapidement que l'étage : lors des coupures nocturnes, la température descend jusqu'à 15°C alors qu'à l'étage on ne relève en général moins moins de 18°C.
+
+
+
+
+
+
 
 
