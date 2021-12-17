@@ -103,7 +103,7 @@ L'effet des réduits de week-end est très perceptible : dès que le réduit se 
 ![](https://user-images.githubusercontent.com/24553739/146555284-d42b982d-1099-4532-b213-2058df919086.png)
 
 ### cas de la mi-saison
-Avant que le chauffage soit allumé, on peut percevoir un certain inconfort dans le bâtiment au nibveau de l'aile nord
+Avant que le chauffage soit allumé, on peut percevoir un certain inconfort dans le bâtiment au niveau de l'aile nord : 16°C au rez-de-chaussée et 17°C à l'étage à 8 heures du matin
 ![](https://user-images.githubusercontent.com/24553739/146561280-12ad152b-542b-4cc7-9a45-37aa86b36a4f.png)
 
 
