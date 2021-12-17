@@ -15,7 +15,7 @@ Pour chaque circuit, on a mis en place :
 
 Il existe principalement 4 grandes familles de programmation d'intermittence, toutes plus ou moins empiriques. Les réglages sont généralement effectués à dires d'expert.
 
-## ralenti
+## Ralenti
 
 Le ralenti consiste en un abaissement de courbe de chauffe pour les périodes d’inoccupation : en période d’inoccupation, on continue toujours à fournir en permanence de la chaleur au bâtiment, moins qu’en période d’occupation, mais en quantité suffisante pour ne pas permettre un abaissement rapide de la température intérieure.
 
@@ -23,14 +23,14 @@ Avec une production dimensionnée pour un régime d’eau 90/70°, on considère
 
 Le décalage de courbe de chauffe est donc généralement de l'ordre de -20°C, afin de ne pas laisser la température intérieure descendre en dessous de 16°C (cas d'une consigne de 20°C pour la température intérieure)
 
-## coupure et relance à heures fixes
+## Coupure et relance à heures fixes
 
 - fonctionnement normal du chauffage en période d’occupation (par exemple loi d'eau sur la température extérieure)
 - arrêt complet du chauffage (arrêt des chaudières, fermeture des vannes mélangeuses, arrêt des circulateurs, …) en fin de période d’occupation,
 - relance du chauffage à allure réduite pendant la période d’inoccupation, par exemple si la température extérieure descend en dessous d'une certaine valeur limite. Les installations les plus récentes peuvent utiliser des sondes d'ambiance pour mesurer la température intérieure, et ainsi déclencher la relance si la température intérieure est en dessous de valeurs seuils (16° en semaine et 14° le week-end)
 - relance du chauffage, à pleine puissance un peu avant l'ouverture des locaux.
 
-## optimiseur non autoadaptatif
+## Optimiseur non autoadaptatif
 
 Par rapport à une stratégie avec horaires fixes, les optimiseurs ajustent quotidiennement le moment des coupures/relances en fonction de la température extérieure et de la température intérieure si elle est mesurée. 
 
@@ -40,14 +40,14 @@ Lorsqu’il fait plus chaud :
 
 La paramétrisation de ce type de programmateur reste délicate : en effet, il faut procéder par tatonnements, puisque plusieurs paramètres importants restent inconnus de l’utilisateur : l’inertie thermique du bâtiment, son isolation, le degré de surpuissance du chauffage. Seul un bon monitoring temps réel permet un ajustement adéquat. 
 
-## optimiseur autoadaptatif
+## Optimiseur autoadaptatif
 
 Le programmateur adapte automatiquement ses paramètres de réglage au jour le jour, en fonction des résultats qu’il a obtenu les jours précédents. 
 **Par rapport à un optimiseur non autoadaptatif bien réglé, l’optimiseur autoadaptatif n’apportera pas d’économie d’énergie complémentaire. Son rôle est de faciliter (l’utilisateur ne doit plus intervenir) et donc d’optimaliser le réglage.**
 
 L'auto-apprentissage semble séduisant à première vue, mais la pertinence des réglages dépendra de la qualité des échantillons de données qu'on fournira en entrée. Un bon monitoring est donc là-aussi indispensable pour s'assurer que l'algorithme n'apprend pas en se fondant sur des données peu représentatives.
 
-## gestion de l'intermittence et économies d'énergie
+## Gestion de l'intermittence et économies d'énergie
 
 D'une manière générale, si l'on veut faire des économies d'énergie, il est indispensable que le réseau hydraulique du bâtiment soit bien réglé. 
 
@@ -55,7 +55,7 @@ Procéder à un équilibrage des différentes zones de chaque circuit est une op
 
 On parle de **pilotage au plus défavorable**, ce qui ne permet pas de maximiser les économies d'énergie.
 
-# de la stratégie d'intermittence suivie par les régulateurs de la sous-station ouest de l’externat
+# De la stratégie d'intermittence suivie par les régulateurs de la sous-station ouest de l’externat
 
 La stratégie déployée à Marc Bloch ne repose pas sur des mesures de température intérieure pour réguler la distribution de l'eau chaude. On est donc plutôt sur un système de type coupure et relance à heures fixes. 
 
@@ -70,17 +70,17 @@ Ce sont ensuite des cycles journaliers de 12h qui se succèdent, commencant à 6
 
 Le système semble fonctionner à pleine puissance jusqu'à 8h puis de manière réduite ensuite, certainement suivant une loi d'eau de distribution. **En semaine, le chauffage est coupé la nuit : il n'y a pas de réduit de semaine et le système compte sur la relance à pleine puissance du matin pour avoir la bonne température à l'ouverture du bâtiment.**
 
-## zoom sur une journée plus froide
+## Zoom sur une journée plus froide
 
 ![](https://user-images.githubusercontent.com/24553739/146346683-401bde83-13e3-4d87-aa10-25da4165b407.png)
 
-# analyse du confort thermique d'hiver
+# Analyse du confort thermique d'hiver
 
 Le chauffage a été mis en route le 8 octobre et l'hiver s'est installé véritablement début novembre 2021 : pour les 6 semaines depuis début novembre, les températures extérieures sont inférieures à 10°C près de 90% du temps
 
 ![](https://user-images.githubusercontent.com/24553739/146554347-043b7257-4f8d-484f-978c-7c53a8e4a2b6.png)
 
-## circuit nord
+## Circuit nord
 
 ![](https://user-images.githubusercontent.com/24553739/146536002-9da5e0e2-b554-4d60-9d94-16ddf1c81941.png)
 
@@ -92,12 +92,14 @@ La différence de température entre le départ et le retour n'est pas perceptib
 
 On constate beaucoup de chutes de températures dues aux directives d'aération COVID, notamment dans la salle de technologie de l'étage (B209). Ces phénomènes viennent perturber la lecture des graphiques.
 
-Le rez-de-chaussée perd en température beaucoup plus rapidement que l'étage : lors des coupures nocturnes, la température descend jusqu'à 15°C alors qu'à l'étage le minimum est voisin de 18°C, sauf s'il y a eu une aération très efficace dans la journée.
+Lors des coupures nocturnes, la température au rez-de-chaussée descend jusqu'à 15°C alors qu'à l'étage le minimum est voisin de 18°C, sauf s'il y a eu une aération très efficace dans la journée. Ce phénomène est soit naturel puisque la chaleur à tendance à monter soit imputable à une différence d'isolation entre étage et rez-de-chaussée que nous n'avons pas su percevoir.
 
-### salle de technologie B209
+L'effet des réduits de weekend est très perceptible : dès que le réduit se met en oeuvre, la température intérieure se stabilise à 19°C au rez-de-chaussée et à 20°C à l'étage. Le système n'a alors guère d'effort à faire pour être à la bonne température le lundi matin. Ce réduit pourrait être abaissé ou retardé car la puissance disponible pour remonter en température semble suffisante.
+
+### Salle de technologie B209
 ![](https://user-images.githubusercontent.com/24553739/146554010-65cbdec6-7035-461f-b6c1-384178cfae7d.png)
 
-### salle de musique B101
+### Salle de musique B101
 ![](https://user-images.githubusercontent.com/24553739/146555284-d42b982d-1099-4532-b213-2058df919086.png)
 
 
