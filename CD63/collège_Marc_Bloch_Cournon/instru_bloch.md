@@ -69,14 +69,13 @@ Ce sont ensuite des cycles journaliers de 12h qui se succèdent, commencant à 6
 
 ## journée du 11 octobre 2021
 
-![](https://user-images.githubusercontent.com/24553739/146344774-1b142efb-3b0a-4793-85af-b69d1d8fcc5c.png) | 
+![](https://user-images.githubusercontent.com/24553739/146344774-1b142efb-3b0a-4793-85af-b69d1d8fcc5c.png)
 
 ## journée du 14 décembre 2021
 
 ![](https://user-images.githubusercontent.com/24553739/146346683-401bde83-13e3-4d87-aa10-25da4165b407.png)
 
-Le système fonctionne à pleine puissance jusqu'à 8h puis de manière réduite ensuite, certainement suivant une loi d'eau de distribution. **En semaine, le chauffage est coupé la nuit : il n'y a pas de réduit de semaine et le système compte sur la relance à pleine puissance du matin pour avoir la bonne température à l'ouverture du bâtiment.**
-
+Le système fonctionne à pleine puissance jusqu'à 8h puis de manière réduite ensuite, certainement suivant une loi d'eau de distribution. **En semaine, le chauffage est coupé la nuit : il n'y a pas de ralenti et le système compte sur la relance à pleine puissance du matin pour avoir la bonne température à l'ouverture du bâtiment.**
 
 # Analyse du confort thermique
 
@@ -120,7 +119,8 @@ Le circuit fonctionne correctement et lors de la distribution de chaleur, on per
 
 ![](https://user-images.githubusercontent.com/24553739/146582169-b99507ea-3fb9-4ca7-8d64-94df714824d2.png)
 
-Lors des coupures nocturnes, l'écart entre l'étage et le rez-de-chaussée est moins important que sur l'aile nord : 1°C seulement alors qu'on peut avoir 4 à 5°C côté nord
+Lors des coupures nocturnes, l'écart entre l'étage et le rez-de-chaussée est moins important que sur l'aile nord : 1°C seulement alors qu'on peut avoir 4 à 5°C côté nord.
+
 En général, la température intérieure ne descend pas en dessous de 17°C, mis à part les périodes d'aération COVID.
   
 Comme au nord, le réduit d'innocupation semble très confortable.
