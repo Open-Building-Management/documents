@@ -115,4 +115,4 @@ Le circuit fonctionne correctement et lors de la distribution de chaleur, on per
 ![](https://user-images.githubusercontent.com/24553739/146582169-b99507ea-3fb9-4ca7-8d64-94df714824d2.png)
 
 Lors des coupures nocturnes, l'écart entre l'étage et le rez-de-chaussée est moins important que sur l'aile nord : 1°C seulement alors qu'on peut avoir 4 à 5°C côté nord
-En général, la température intérieure ne descend pas en dessous de 17°C.
+En général, la température intérieure ne descend pas en dessous de 17°C, mis à part les périodes d'aération COVID.
