@@ -66,10 +66,11 @@ Le graphique ci-dessous représente la température d'eau chaude distribuée lor
 Le chauffage est allumé le vendredi 8 Octobre, coupé dans la soirée puis le dimanche, le fonctionnement réduit commence. On constate une coupure du réduit dans l'après-midi du dimanche, certainement en raison d'une météo clémente puis une reprise vers 21 h en soirée. 
 
 Ce sont ensuite des cycles journaliers de 12h qui se succèdent, commencant à 6h du matin pour se terminer à 6 heures du soir. 
-![](https://user-images.githubusercontent.com/24553739/146344774-1b142efb-3b0a-4793-85af-b69d1d8fcc5c.png)
-![](https://user-images.githubusercontent.com/24553739/146346683-401bde83-13e3-4d87-aa10-25da4165b407.png)
+journée du 11 octobre 2021 | journée du 14 décembre 2021
+--|--
+![](https://user-images.githubusercontent.com/24553739/146344774-1b142efb-3b0a-4793-85af-b69d1d8fcc5c.png) | ![](https://user-images.githubusercontent.com/24553739/146346683-401bde83-13e3-4d87-aa10-25da4165b407.png)
 
-Le système semble fonctionner à pleine puissance jusqu'à 8h puis de manière réduite ensuite, certainement suivant une loi d'eau de distribution. **En semaine, le chauffage est coupé la nuit : il n'y a pas de réduit de semaine et le système compte sur la relance à pleine puissance du matin pour avoir la bonne température à l'ouverture du bâtiment.**
+Le système fonctionne à pleine puissance jusqu'à 8h puis de manière réduite ensuite, certainement suivant une loi d'eau de distribution. **En semaine, le chauffage est coupé la nuit : il n'y a pas de réduit de semaine et le système compte sur la relance à pleine puissance du matin pour avoir la bonne température à l'ouverture du bâtiment.**
 
 
 # Analyse du confort thermique
@@ -100,10 +101,13 @@ Salle de technologie<br>B209 | ![](https://user-images.githubusercontent.com/245
 --|--
 <b>Salle de musique<br>B101<b> | ![](https://user-images.githubusercontent.com/24553739/146555284-d42b982d-1099-4532-b213-2058df919086.png)
 
-### cas de la mi-saison
+### Cas de la mi-saison
 
 Avant la mise en route du chauffage, on peut percevoir un certain inconfort dans le bâtiment au niveau de l'aile nord : 16°C au rez-de-chaussée et 17°C à l'étage à 8 heures du matin
 ![](https://user-images.githubusercontent.com/24553739/146561280-12ad152b-542b-4cc7-9a45-37aa86b36a4f.png)
+
+## Circuit Sud
+
 
 
 
