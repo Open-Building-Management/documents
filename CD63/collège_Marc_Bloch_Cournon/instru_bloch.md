@@ -88,7 +88,7 @@ La différence de température entre le départ et le retour n'est pas perceptib
 
 On constate beaucoup de chutes de températures dues aux directives d'aération COVID, notamment dans la salle de technologie de l'étage (B209). Ces phénomènes viennent perturber la lecture des graphiques.
 
-Le rez-de-chaussée perd en température beaucoup plus rapidement que l'étage : lors des coupures nocturnes, la température descend jusqu'à 15°C alors qu'à l'étage on ne relève en général moins moins de 18°C.
+Le rez-de-chaussée perd en température beaucoup plus rapidement que l'étage : lors des coupures nocturnes, la température descend jusqu'à 15°C alors qu'à l'étage on ne relève en général moins moins de 18°C, sauf s'il y a eu une aération très efficace dans la journée.
 
 
 
