@@ -89,15 +89,16 @@ Le chauffage a été mis en route le 8 octobre et l'hiver s'est installé vérit
 
 ![](https://user-images.githubusercontent.com/24553739/146536002-9da5e0e2-b554-4d60-9d94-16ddf1c81941.png)
 
-La différence de température entre le départ et le retour n'est pas perceptible, en raison d'une vanne de pression différentielle défaillante entre le départ et le retour. Celà a été vérifié lors d'une visite sur site le 17 décembre 2021 : la vanne semble bloquée en position ouverte. On peut envisager :
+La différence de température entre le départ et le retour n'est pas perceptible. Ce disfonctionnement est imputable à une vanne de pression différentielle défaillante entre le départ et le retour. Celà a été vérifié lors d'une visite sur site le 17 décembre 2021 : la vanne semble bloquée en position ouverte. On peut envisager :
 - de remplacer la vanne
 - de l'effacer et de mettre en place des bouchons
+A noter que la vanne de pression différentielle sur le circuit ne semble pas en meilleur état, mais la vanne n'est pas bloquée en position ouverte.
 
 ![](https://user-images.githubusercontent.com/24553739/146538391-21cd6cac-ea91-4a62-a25d-ac8d57914bd1.png)
 
 On constate beaucoup de chutes de températures dues aux directives d'aération COVID, notamment dans la salle de technologie de l'étage (B209). Ces phénomènes viennent perturber la lecture des graphiques.
 
-Lors des coupures nocturnes, la température au rez-de-chaussée descend jusqu'à 15°C alors qu'à l'étage le minimum est voisin de 18°C, sauf s'il y a eu une aération très efficace dans la journée. Cet écart entre entre étage et rez-de-chaussée est soit naturel puisque la chaleur à tendance à monter soit imputable à une différence d'isolation que nous n'avons pas su percevoir.
+Lors des coupures nocturnes, la température au rez-de-chaussée descend jusqu'à 15°C alors qu'à l'étage le minimum est voisin de 18°C, sauf s'il y a eu une aération très efficace dans la journée. Même si la chaleur a une tendance naturelle à monter, cet écart entre étage et rez-de-chaussée est très certainement du à une meilleure isolation des combles.
 
 L'effet des réduits de week-end est très perceptible : dès que le réduit se met en oeuvre, la température intérieure se stabilise à 19°C au rez-de-chaussée et à 20°C à l'étage. Le système n'a alors guère d'effort à faire pour être à la bonne température le lundi matin. Ce réduit pourrait être abaissé ou retardé car la puissance disponible pour remonter en température semble suffisante.
 
