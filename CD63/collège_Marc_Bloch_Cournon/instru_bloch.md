@@ -140,6 +140,6 @@ Comme au côté nord, on constate que les locaux étaient frais début novembre.
 
 Il semble nécessaire d'étudier une isolation du rez-de-chaussé au côté nord.
 
-Un abaissement des réduits en week-end pourrait être étudié en lien avec l'exploitant. On pourrait utiliser le monitoring en place pour valider les paramètres.
+Un abaissement des réduits en week-end pourrait être testé en lien avec l'exploitant. On pourrait utiliser le monitoring en place pour valider les paramètres.
 
-La relance à pleine puissance semble plus importante au sud qu'au nord alors que le contraire serait plus utile. Il faudrait voir avec l'exploitant s'il est possible de brider la vanne 3 voies du sud à 80% de son ouverture maximale. La aussi, le monitoring temps réel permettra de valider le réglage préconisé.
+La relance à pleine puissance semble plus importante au sud qu'au nord alors que le contraire serait plus utile. Il faudrait voir avec l'exploitant s'il est possible de brider la vanne 3 voies du sud à 80% de son ouverture maximale. La aussi, le monitoring temps réel devrait permettre de valider le réglage préconisé.
