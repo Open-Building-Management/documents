@@ -142,4 +142,4 @@ Il semble nécessaire d'isoler le rez-de-chaussé du côté nord.
 
 Un abaissement des réduits en week-end pourrait être étudié en lien avec l'exploitant. On pourrait utiliser le monitoring en place pour valider les paramètres.
 
-La relance à pleine puissance semble plus importante au sud qu'au nord alors que le contraire serait plus utile. Il faudrait voir avec l'exploitant s'il est possible de brider la vanne 3 voies du sud à 80% de son ouverture maximale.
+La relance à pleine puissance semble plus importante au sud qu'au nord alors que le contraire serait plus utile. Il faudrait voir avec l'exploitant s'il est possible de brider la vanne 3 voies du sud à 80% de son ouverture maximale. La aussi, le monitoring temps réel permettra de valider le réglage préconisé.
