@@ -104,7 +104,7 @@ Lors des coupures nocturnes, la température au rez-de-chaussée descend jusqu'�
 
 L'effet des réduits de week-end est très perceptible : dès que le réduit se met en oeuvre, la température intérieure se stabilise à 19°C au rez-de-chaussée et à 20°C à l'étage. Le système n'a alors guère d'effort à faire pour être à la bonne température le lundi matin. Ce réduit pourrait être abaissé ou retardé car la puissance disponible pour remonter en température semble suffisante.
 
-D'une manière générale, le confort est assez contrasté : on constate que lors de l'occupation du bâtiment, les températures ne sont pas à plus de 60% dans la zone confort, entre 19 et 21°C.
+D'une manière générale, le confort est assez contrasté : on constate que lors de l'occupation du bâtiment, les températures ne sont pas à plus de 60% dans la zone confort, entre 19 et 21°C. Il est toutefois difficile de faire la part des choses entre ce qui relève de l'aération COVID et ce qui est imputable au bâtiment, surtout en salle B209.
 
 Salle de technologie<br>B209 | ![](https://user-images.githubusercontent.com/24553739/146554010-65cbdec6-7035-461f-b6c1-384178cfae7d.png)
 --|--
@@ -134,5 +134,12 @@ Salle d'art plastique<br>B140 | ![image](https://user-images.githubusercontent.c
 --|--
 <b>Salle de cours <br>B216</b> | ![image](https://user-images.githubusercontent.com/24553739/146655319-406a9e5c-887b-45ec-be8e-c55f3f0621ca.png)
 
+Comme au côté nord, on constate que les locaux étaient frais début novembre. Les courbes de chauffe ont du être relevées par la suite.
 
+# Recommandations
 
+Il semble nécessaire d'isoler le rez-de-chaussé du côté nord.
+
+Un abaissement des réduits en week-end pourrait être étudié en lien avec l'exploitant. On pourrait utiliser le monitoring en place pour valider les paramètres.
+
+La relance à pleine puissance semble plus importante au sud qu'au nord alors que le contraire serait plus utile. Il faudrait voir avec l'exploitant s'il est possible de brider la vanne 3 voies du sud à 80% de son ouverture maximale.
