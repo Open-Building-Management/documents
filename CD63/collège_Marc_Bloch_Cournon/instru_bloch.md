@@ -1,6 +1,6 @@
 ![Logo Cerema monochrome gris vertical](https://user-images.githubusercontent.com/24553739/146218239-e2dd560e-6edc-4f16-aa6e-d521975042d5.png)
 
-# Instrumentation du collège Marc Bloch à Cournon
+# Instrumentation du collège Marc Bloch à Cournon et anamyse de la performance énergétique d'hiver
 
 En février 2021, on a instrumenté 2 circuits desservant respectivement les ailes nord et sud de la sous-station ouest de l’externat (bâtiment d'enseignement).
 
