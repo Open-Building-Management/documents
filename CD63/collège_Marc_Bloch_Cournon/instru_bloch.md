@@ -129,3 +129,10 @@ Lors des coupures nocturnes, l'écart entre l'étage et le rez-de-chaussée est 
 En général, la température intérieure ne descend pas en dessous de 17°C, mis à part les périodes d'aération COVID.
   
 Comme au nord, le réduit d'innocupation semble très confortable.
+  
+Salle d'art plastique<br>B140 | ![image](https://user-images.githubusercontent.com/24553739/146655236-a3dce4a3-0549-4067-bf24-c79caf665b52.png)
+--|--
+<b>Salle de cours <br>B216</b> | ![image](https://user-images.githubusercontent.com/24553739/146655319-406a9e5c-887b-45ec-be8e-c55f3f0621ca.png)
+
+
+
