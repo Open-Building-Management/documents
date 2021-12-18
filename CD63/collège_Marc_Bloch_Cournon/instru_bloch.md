@@ -98,7 +98,7 @@ A noter que la vanne de pression différentielle sur le circuit ne semble pas en
 
 On constate beaucoup de chutes de températures dues aux directives d'aération COVID, notamment dans la salle de technologie de l'étage (B209). Ces phénomènes viennent perturber la lecture des graphiques.
 
-Lors des coupures nocturnes, la température au rez-de-chaussée descend jusqu'à 15°C alors qu'à l'étage le minimum est voisin de 18°C, sauf s'il y a eu une aération très efficace dans la journée. Même si la chaleur a une tendance naturelle à monter, cet écart entre étage et rez-de-chaussée est très certainement du à une meilleure isolation des combles.
+Lors des coupures nocturnes, la température au rez-de-chaussée descend jusqu'à 15°C alors qu'à l'étage le minimum est voisin de 18°C, sauf s'il y a eu une aération très efficace dans la journée. Cet écart entre étage et rez-de-chaussée est très certainement du à une meilleure isolation des combles, la chaleur ayant une tendance naturelle à monter.
 
 L'effet des réduits de week-end est très perceptible : dès que le réduit se met en oeuvre, la température intérieure se stabilise à 19°C au rez-de-chaussée et à 20°C à l'étage. Le système n'a alors guère d'effort à faire pour être à la bonne température le lundi matin. Ce réduit pourrait être abaissé ou retardé car la puissance disponible pour remonter en température semble suffisante.
 
