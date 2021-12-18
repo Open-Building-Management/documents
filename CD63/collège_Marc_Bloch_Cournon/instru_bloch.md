@@ -138,7 +138,7 @@ Comme au côté nord, on constate que les locaux étaient frais début novembre.
 
 # Recommandations
 
-Il semble nécessaire d'isoler le rez-de-chaussé du côté nord.
+Il semble nécessaire d'étudier une isolation du rez-de-chaussé au côté nord.
 
 Un abaissement des réduits en week-end pourrait être étudié en lien avec l'exploitant. On pourrait utiliser le monitoring en place pour valider les paramètres.
 
