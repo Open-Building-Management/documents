@@ -134,7 +134,7 @@ Salle d'art plastique<br>B140 | ![image](https://user-images.githubusercontent.c
 --|--
 <b>Salle de cours <br>B216</b> | ![image](https://user-images.githubusercontent.com/24553739/146655319-406a9e5c-887b-45ec-be8e-c55f3f0621ca.png)
 
-Comme au côté nord, on constate que les locaux étaient frais début novembre. Les courbes de chauffe ont du être relevées par la suite.
+On constate que les locaux étaient frais début novembre. Les courbes de chauffe ont du être relevées par la suite.
 
 # Recommandations
 
