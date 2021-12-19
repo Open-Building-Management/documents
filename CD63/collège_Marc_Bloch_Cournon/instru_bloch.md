@@ -104,7 +104,7 @@ Lors des coupures nocturnes, la température au rez-de-chaussée descend jusqu'�
 
 L'effet des réduits de week-end est très perceptible : dès que le réduit se met en oeuvre, la température intérieure se stabilise à 19°C au rez-de-chaussée et à 20°C à l'étage. Le système n'a alors guère d'effort à faire pour être à la bonne température le lundi matin. Ce réduit pourrait être abaissé ou retardé car la puissance disponible pour remonter en température semble suffisante.
 
-D'une manière générale, le confort est assez contrasté : on constate que lors de l'occupation du bâtiment, les températures ne sont pas à plus de 60% dans la zone confort, entre 19 et 21°C. Il est toutefois difficile de faire la part des choses entre ce qui relève de l'aération COVID et ce qui est imputable au bâtiment, surtout en salle B209.
+D'une manière générale, le confort est assez contrasté. Il faisait assez froid dans les salles fin octobre et début novembre. Les choses se sont arrangées par la suite mais les températures en occupation ne sont pas à plus de 60% dans la zone confort, entre 19 et 21°C. Il est toutefois difficile de faire la part des choses entre ce qui relève de l'aération COVID et ce qui est imputable au bâtiment, surtout en salle B209.
 
 Salle de technologie<br>B209 | ![](https://user-images.githubusercontent.com/24553739/146554010-65cbdec6-7035-461f-b6c1-384178cfae7d.png)
 --|--
