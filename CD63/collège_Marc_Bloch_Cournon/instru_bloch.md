@@ -13,15 +13,15 @@ Pour chaque circuit, on a mis en place :
 
 # Tour d'horizon des différentes stratégies de gestion de l'intermittence les plus courantes
 
-Il existe principalement 4 grandes familles de programmation d'intermittence, toutes plus ou moins empiriques. Les réglages sont généralement effectués à dires d'expert.
+Il existe principalement 4 grandes familles de programmation d'intermittence, toutes plus ou moins empiriques et les réglages sont effectués à dires d'expert.
 
 ## Ralenti
 
 Le ralenti consiste en un abaissement de courbe de chauffe pour les périodes d’inoccupation : en période d’inoccupation, on continue toujours à fournir en permanence de la chaleur au bâtiment, moins qu’en période d’occupation, mais en quantité suffisante pour ne pas permettre un abaissement rapide de la température intérieure.
 
-Avec une production dimensionnée pour un régime d’eau 90/70°, on considère souvent qu’une variation de température d’eau de 4 à 5°C entraîne une variation de température ambiante de 1°C. 
+Avec une production dimensionnée pour un régime d’eau 90/70°, on considère qu’une variation de température d’eau de 4 à 5°C entraîne une variation de température ambiante de 1°C. 
 
-Le décalage de courbe de chauffe est donc généralement de l'ordre de -20°C, afin de ne pas laisser la température intérieure descendre en dessous de 16°C (cas d'une consigne de 20°C pour la température intérieure)
+Le décalage de courbe de chauffe est généralement de l'ordre de -20°C, afin de ne pas laisser la température intérieure descendre en dessous de 16°C (cas d'une consigne de 20°C pour la température intérieure)
 
 ## Coupure et relance à heures fixes
 
@@ -50,7 +50,7 @@ L'auto-apprentissage semble séduisant à première vue, mais la pertinence des 
 
 ## Gestion de l'intermittence et économies d'énergie
 
-D'une manière générale, si l'on veut faire des économies d'énergie, il est indispensable que le réseau hydraulique du bâtiment soit bien réglé. 
+D'une manière générale, si l'on veut faire des économies d'énergie, il est indispensable que les radiateurs soient en bon état de fonctionnement, que les têtes thermostatiques, s'il y en a, soient fonctionnelles et que le réseau hydraulique du bâtiment soit bien réglé. 
 
 Procéder à un équilibrage des différentes zones de chaque circuit est une opération utile si l'on dispose de vannes d'équilibrage positionnées aux endroits stratégiques. 
 En cas de déséquilibre prononcé sur un circuit, le pilotage sur la base de données de temperature intérieure doit se faire en utilisant comme témoin la zone où le confort thermique est le moins bon, au risque de dégrader le confort de manière prononcée. 
@@ -65,7 +65,7 @@ Le graphique ci-dessous représente la température d'eau chaude distribuée lor
 
 ![](https://user-images.githubusercontent.com/24553739/146343944-e885fa67-7bbd-41e7-a009-a19d54203e22.png)
 
-Le chauffage est actif le vendredi, coupé dans la soirée puis le dimanche, le fonctionnement réduit commence. On constate une coupure du réduit dans l'après-midi du dimanche, certainement en raison d'une météo clémente puis une reprise vers 21 h en soirée. 
+Le chauffage est actif le vendredi, coupé dans la soirée puis le samedi soir, le fonctionnement réduit commence. On constate une coupure du réduit dans l'après-midi du dimanche, certainement en raison d'une météo clémente puis une reprise vers 21 h en soirée. 
 
 Ce sont ensuite des cycles journaliers de 12h qui se succèdent, commencant à 6h du matin pour se terminer à 6 heures du soir. 
 
@@ -92,17 +92,29 @@ Le chauffage a été mis en route le 8 octobre et l'hiver s'est installé vérit
 La différence de température entre le départ et le retour n'est pas perceptible. Ce disfonctionnement est imputable à une vanne de pression différentielle défaillante entre le départ et le retour. Celà a été vérifié lors d'une visite sur site le 17 décembre 2021 : la vanne semble bloquée en position ouverte. On peut envisager :
 - de remplacer la vanne
 - de l'effacer et de mettre en place des bouchons
-A noter que la vanne de pression différentielle sur le circuit ne semble pas en meilleur état, mais la vanne n'est pas bloquée en position ouverte.
+A noter que la vanne de pression différentielle sur le circuit sud ne semble pas en meilleur état, mais elle n'est pas bloquée en position ouverte.
 
 ![](https://user-images.githubusercontent.com/24553739/146538391-21cd6cac-ea91-4a62-a25d-ac8d57914bd1.png)
 
 On constate beaucoup de chutes de températures dues aux directives d'aération COVID, notamment dans la salle de technologie de l'étage (B209). Ces phénomènes viennent perturber la lecture des graphiques.
 
-Lors des coupures nocturnes, la température au rez-de-chaussée descend jusqu'à 15°C alors qu'à l'étage le minimum est voisin de 18°C, sauf s'il y a eu une aération très efficace dans la journée. **Cet écart entre étage et rez-de-chaussée est très certainement du à une meilleure isolation des combles, la chaleur ayant une tendance naturelle à monter.** On ne peut pas imputer ce défaut aux pertes de charge ou à un déséquilibre hydraulique entre le réz de chaussée et l'étage, le réseau n'étant à première vue pas spécialement long. De plus, ayant mesuré la température dans la sous-station, le comportement du bureau B101 semble représentatif du rez-de-chaussée car il est corrélé avec celui relevé dans la sous-station qui est au même niveau :
+Lors des coupures nocturnes, la température au rez-de-chaussée descend jusqu'à 15°C alors qu'à l'étage le minimum est voisin de 18°C, sauf s'il y a eu une aération très efficace dans la journée. **Cet écart entre étage et rez-de-chaussée est très certainement du à une meilleure isolation des combles, la chaleur ayant une tendance naturelle à monter.** On ne peut pas imputer ce défaut aux pertes de charge ou à un déséquilibre hydraulique entre le réz de chaussée et l'étage, le réseau n'étant à première vue pas spécialement long. De plus, ayant mesuré la température dans la sous-station, le comportement du bureau B101 semble représentatif du rez-de-chaussée et il est corrélé avec celui relevé dans la sous-station qui est au même niveau :
 
 ![image](https://user-images.githubusercontent.com/24553739/146655066-24e3ca91-0724-4186-8fba-2789830d1913.png)
 
 L'effet des réduits de week-end est très perceptible : dès que le réduit se met en oeuvre, la température intérieure se stabilise à 19°C au rez-de-chaussée et à 20°C à l'étage. Le système n'a alors guère d'effort à faire pour être à la bonne température le lundi matin. Ce réduit pourrait être abaissé ou retardé car la puissance disponible pour remonter en température semble suffisante.
+
+Le tableau ci-dessous donne une idée des niveaux de réduits pratiqués sur le circuit nord, ainsi que les heures de déclenchement qui ont été relevées. Tous les jours sont des samedi.
+
+date | heure de déclenchement | température extérieure en °C | température d'eau chaude en °C
+--|--|--|--
+09/10 | 23h30 | 12 | 30
+13/11 | 12h25 | 8.5 | 33
+20/11 | 09h15 | 1.4 | 35
+27/11 | 08h30 | 3.5 | 35
+04/12 | 11h49 | 13 | 30
+11/12 | 07h44 | 3 | 37
+18/12 | 05h50 | -2 | 40
 
 D'une manière générale, le confort est assez contrasté. Il faisait assez froid dans les salles fin octobre et début novembre. Les choses se sont arrangées par la suite mais les températures en occupation ne sont pas à plus de 60% dans la zone confort, entre 19 et 21°C. Il est toutefois difficile de faire la part des choses entre ce qui relève de l'aération COVID et ce qui est imputable au bâtiment, surtout en salle B209.
 
@@ -120,7 +132,7 @@ Avant la mise en route du chauffage, on peut percevoir un certain inconfort dans
 
 ![](https://user-images.githubusercontent.com/24553739/146581831-2637e1a8-0742-4beb-bded-6f66e663c80b.png)
 
-Le circuit fonctionne correctement et lors de la distribution de chaleur, on perçoit nettement un delta de température entre départ et retour de l'ordre de 10°C.
+Le circuit fonctionne correctement et lors de la distribution de chaleur, le delta de température entre départ et retour est de l'ordre de 10°C.
 
 ![](https://user-images.githubusercontent.com/24553739/146582169-b99507ea-3fb9-4ca7-8d64-94df714824d2.png)
 
