@@ -42,7 +42,7 @@ Lorsqu’il fait plus chaud :
 - le refroidissement du bâtiment est plus lent : l'heure de coupure peut donc être avancée
 - la température intérieure atteinte durant l’inoccupation est moins basse et l’énergie nécessaire à la relance est plus faible : l'heure de la relance peut donc être retardée.
 
-La paramétrisation de ce type de programmateur reste délicate : il faut procéder par tatonnements, puisque plusieurs paramètres importants restent inconnus de l’utilisateur : l’inertie thermique du bâtiment, son isolation, le degré de surpuissance du chauffage. Seul un bon monitoring temps réel permet un ajustement adéquat. 
+La paramétrisation de ce type de programmateur reste délicate et il faut procéder par tatonnements, puisque plusieurs paramètres importants restent inconnus de l’utilisateur : l’inertie thermique du bâtiment, son isolation, le degré de surpuissance du chauffage. Seul un bon monitoring temps réel permet un ajustement adéquat. 
 
 ## Optimiseur autoadaptatif
 
