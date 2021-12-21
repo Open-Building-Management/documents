@@ -54,7 +54,7 @@ L'auto-apprentissage semble séduisant à première vue, mais la pertinence des 
 
 ## Gestion de l'intermittence et économies d'énergie
 
-D'une manière générale, si l'on veut faire des économies d'énergie, il est indispensable que les radiateurs soient en bon état de fonctionnement, que les têtes thermostatiques, s'il y en a, soient fonctionnelles et que le réseau hydraulique du bâtiment soit bien réglé. 
+D'une manière générale, si l'on veut piloter le chauffage d'un bâtiment tertiaire pour faire des économies d'énergie, il est indispensable que les radiateurs soient en bon état de fonctionnement, que les têtes thermostatiques, s'il y en a, soient fonctionnelles et que le réseau hydraulique du bâtiment soit bien réglé. 
 
 Procéder à un équilibrage des différentes zones de chaque circuit est une opération utile si l'on dispose de vannes d'équilibrage positionnées aux endroits stratégiques. 
 En cas de déséquilibre prononcé sur un circuit, le pilotage sur la base de données de temperature intérieure doit se faire en utilisant comme témoin la zone où le confort thermique est le moins bon, au risque de dégrader le confort de manière prononcée. 
