@@ -13,7 +13,7 @@ Pour chaque circuit, on a mis en place :
 
 # Tour d'horizon des différentes stratégies de gestion de l'intermittence les plus courantes
 
-Il existe principalement 4 grandes familles de programmation d'intermittence, toutes plus ou moins empiriques et les réglages sont effectués à dires d'expert.
+Il existe principalement 4 grandes familles de programmation d'intermittence, toutes plus ou moins empiriques et les réglages sont effectués à dires d'expert. Toutes mettent en oeuvre une loi d'eau sur la température extérieure (ou courbe de chauffe) pour économiser l'énergie.
 
 ## Ralenti
 
@@ -25,10 +25,12 @@ Le décalage de courbe de chauffe est généralement de l'ordre de -20°C, afin 
 
 ## Coupure et relance à heures fixes
 
-- fonctionnement normal du chauffage en période d’occupation (par exemple loi d'eau sur la température extérieure)
-- arrêt complet du chauffage (arrêt des chaudières, fermeture des vannes mélangeuses, arrêt des circulateurs, …) en fin de période d’occupation,
-- relance du chauffage à allure réduite pendant la période d’inoccupation, par exemple si la température extérieure descend en dessous d'une certaine valeur limite. Les installations les plus récentes peuvent utiliser des sondes d'ambiance pour mesurer la température intérieure, et ainsi déclencher la relance si la température intérieure est en dessous de valeurs seuils (16° en semaine et 14° le week-end)
-- relance du chauffage, à pleine puissance un peu avant l'ouverture des locaux.
+Le chauffage s'arrête totalement à la fin des périodes d'occupation :
+- arrêt des chaudières, 
+- fermeture des vannes mélangeuses, 
+- arrêt des circulateurs.
+Lors des périodes d’inoccupation, le chauffage est relancé à allure réduite, par exemple si la température extérieure descend en dessous d'une certaine valeur limite. Les installations les plus récentes peuvent utiliser des sondes d'ambiance pour mesurer la température intérieure, et ainsi déclencher la relance si la température intérieure est en dessous de valeurs seuils (16° en semaine et 14° le week-end)
+Un peu avant l'ouverture des locaux, le chauffage est relancé à pleine puissance
 
 ## Optimiseur non autoadaptatif
 
@@ -38,7 +40,7 @@ Lorsqu’il fait plus chaud :
 - le refroidissement du bâtiment est plus lent : l'heure de coupure peut donc être avancée
 - la température intérieure atteinte durant l’inoccupation est moins basse et l’énergie nécessaire à la relance est plus faible : l'heure de la relance peut donc être retardée.
 
-La paramétrisation de ce type de programmateur reste délicate : en effet, il faut procéder par tatonnements, puisque plusieurs paramètres importants restent inconnus de l’utilisateur : l’inertie thermique du bâtiment, son isolation, le degré de surpuissance du chauffage. Seul un bon monitoring temps réel permet un ajustement adéquat. 
+La paramétrisation de ce type de programmateur reste délicate : il faut procéder par tatonnements, puisque plusieurs paramètres importants restent inconnus de l’utilisateur : l’inertie thermique du bâtiment, son isolation, le degré de surpuissance du chauffage. Seul un bon monitoring temps réel permet un ajustement adéquat. 
 
 ## Optimiseur autoadaptatif
 
