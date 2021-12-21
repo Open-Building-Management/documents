@@ -2,7 +2,7 @@
 
 # Instrumentation du collège Marc Bloch à Cournon et analyse de la performance énergétique d'hiver
 
-En février 2021, on a instrumenté 2 circuits desservant respectivement les ailes nord et sud de la sous-station ouest du bâtiment d'enseignement (externat).
+En février 2021, on a déployé notre système internet des objets THEMIS pour instrumenter 2 circuits desservant respectivement les ailes nord et sud de la sous-station ouest du bâtiment d'enseignement (externat).
 
 Pour chaque circuit, on a mis en place :
 - 2 PT100 pour apprécier les températures de départ et de retour de l'eau chaude
