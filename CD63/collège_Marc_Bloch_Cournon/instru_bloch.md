@@ -29,7 +29,9 @@ Le chauffage s'arrête totalement à la fin des périodes d'occupation :
 - arrêt des chaudières, 
 - fermeture des vannes mélangeuses, 
 - arrêt des circulateurs.
+
 Lors des périodes d’inoccupation, le chauffage est relancé à allure réduite, par exemple si la température extérieure descend en dessous d'une certaine valeur limite. Les installations les plus récentes peuvent utiliser des sondes d'ambiance pour mesurer la température intérieure, et ainsi déclencher la relance si la température intérieure est en dessous de valeurs seuils (16° en semaine et 14° le week-end)
+
 Un peu avant l'ouverture des locaux, le chauffage est relancé à pleine puissance
 
 ## Optimiseur non autoadaptatif
