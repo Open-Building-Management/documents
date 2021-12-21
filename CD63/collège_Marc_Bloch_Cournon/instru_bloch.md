@@ -17,7 +17,7 @@ Il existe principalement 4 grandes familles de programmation d'intermittence, to
 
 ## Ralenti
 
-Le ralenti consiste en un abaissement de courbe de chauffe pour les périodes d’inoccupation : en période d’inoccupation, on continue toujours à fournir en permanence de la chaleur au bâtiment, moins qu’en période d’occupation, mais en quantité suffisante pour ne pas permettre un abaissement rapide de la température intérieure.
+Le ralenti consiste en un abaissement de courbe de chauffe pour les périodes d’inoccupation : on continue toujours à fournir en permanence de la chaleur au bâtiment, moins qu’en période d’occupation, mais en quantité suffisante pour ne pas permettre un abaissement rapide de la température intérieure.
 
 Avec une production dimensionnée pour un régime d’eau 90/70°, on considère qu’une variation de température d’eau de 4 à 5°C entraîne une variation de température ambiante de 1°C. 
 
