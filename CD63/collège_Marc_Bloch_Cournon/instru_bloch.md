@@ -94,8 +94,9 @@ Le chauffage a été mis en route le 8 octobre et l'hiver s'est installé vérit
 ![](https://user-images.githubusercontent.com/24553739/146536002-9da5e0e2-b554-4d60-9d94-16ddf1c81941.png)
 
 La différence de température entre le départ et le retour n'est pas perceptible. Ce disfonctionnement est imputable à une vanne de pression différentielle défaillante entre le départ et le retour. Celà a été vérifié lors d'une visite sur site le 17 décembre 2021 : la vanne semble bloquée en position ouverte. On peut envisager :
-- de remplacer la vanne
-- de l'effacer et de mettre en place des bouchons
+- de remplacer la vanne,
+- de l'effacer et de mettre en place des bouchons.
+
 A noter que la vanne de pression différentielle sur le circuit sud ne semble pas en meilleur état, mais elle n'est pas bloquée en position ouverte.
 
 ![](https://user-images.githubusercontent.com/24553739/146538391-21cd6cac-ea91-4a62-a25d-ac8d57914bd1.png)
