@@ -1,5 +1,9 @@
 # plan du bâtiment et des réseaux de chauffage
 
+## chaufferie - schéma électrique
+
+[plan chaufferie](Chaufferie_CEREMA_20180312.PDF)
+
 ## bâtiment administratif
 - 2 étages, plus un sous-sol non-chauffé
 - 550 m2
