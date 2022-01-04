@@ -57,7 +57,7 @@ L'auto-apprentissage semble séduisant à première vue, mais la pertinence des 
 D'une manière générale, si l'on veut piloter le chauffage d'un bâtiment tertiaire pour faire des économies d'énergie, il est indispensable que les radiateurs soient en bon état de fonctionnement, que les têtes thermostatiques, s'il y en a, soient fonctionnelles et que le réseau hydraulique du bâtiment soit bien réglé. 
 
 Procéder à un équilibrage des différentes zones de chaque circuit est une opération utile si l'on dispose de vannes d'équilibrage positionnées aux endroits stratégiques. 
-En cas de déséquilibre prononcé sur un circuit, le pilotage sur la base de données de temperature intérieure doit se faire en utilisant comme témoin la zone où le confort thermique est le moins bon, au risque de dégrader le confort de manière prononcée. 
+En cas de déséquilibre prononcé sur un circuit, le pilotage sur la base de données de temperature intérieure doit se faire en utilisant comme témoin la zone où le confort thermique est le moins bon, sinon on prend le risque de dégrader le confort de manière prononcée. 
 
 On parle de **pilotage au plus défavorable**, ce qui ne permet pas de maximiser les économies d'énergie.
 
@@ -155,8 +155,8 @@ On constate que les locaux étaient frais début novembre. Les courbes de chauff
 
 # Recommandations
 
-Il semble nécessaire d'étudier une isolation du rez-de-chaussé au côté nord.
-
-Un abaissement des réduits en week-end pourrait être testé en lien avec l'exploitant. On pourrait utiliser le monitoring en place pour valider les paramètres.
-
-La relance à pleine puissance semble plus importante au sud qu'au nord alors que le contraire serait plus utile. Il faudrait voir avec l'exploitant s'il est possible de brider la vanne 3 voies du sud à 80% de son ouverture maximale. La aussi, le monitoring temps réel devrait permettre de valider le réglage préconisé.
+Un abaissement des réduits en week-end pourrait être testé.
+  
+La relance à pleine puissance semble plus importante au sud qu'au nord alors que le contraire serait plus utile. 
+  
+Il faudrait voir avec l'exploitant s'il est possible d'adapter les réglages et le monitoring temps réel en place pourrait permettre de valider les choses.
