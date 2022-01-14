@@ -1,0 +1,27 @@
+{
+  "63000_CLE41": {
+    "site_nom": "BOUCHAUDY",
+    "site_famille": "Social",
+    "site_adresse": "4 place Michel de l'Hospital, 63000 CLERMONT-FERRAND",
+    "Site_georef": "XX;YY",
+    "site_nb_parcelles": 1,
+    "Sites_cadastre": "IM 171",
+    "site_nb_batiment": 1,
+    "Site_nb_ERP": 1,
+    "Site_Attractivité": "3,66666666666667",
+    "site_gestionnaire": "DGAS",
+    "site_nom_resp": "Mme. MARTIN SAINT-LEON",
+    "site_fonct_Resp": "Exploitant",
+    "site_Tel_Resp": "Poste 20.74",
+    "site_statut_occupation": "Propriétaire",
+    "site _bail_type": "Sans objet",
+    "site_fin_Bail": "Sans objet",
+    "site_servitudes": "Non",
+    "Site_surface": 2041,
+    "Site_surface_bâti": 950,
+    "Site_surface_vert": 900,
+    "Site _surf_voie&stationement": 200,
+    "Site_nb_stationnement": 48,
+    "Site_assainissement": "Séparatif"
+  }
+}
