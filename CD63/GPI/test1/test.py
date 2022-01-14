@@ -46,3 +46,10 @@ for i,k in enumerate(batk):
     
     print("surface chauffée : {} m2".format(surcha))
     
+print("      | |           ")
+print("   ___| | ___  ___  ")
+print("  / __| |/ _ \/ __| ")
+print(" | (__| |  __/\__ \ ")
+print("  \___|_|\___||___/ ")
+print("....de la table bâtiments :-)")
+print(site[batk[0]].keys())
