@@ -7,13 +7,19 @@ nom = "63000_CLE41"
 
 # le site
 with open('{}.json'.format(nom), encoding=encoding) as json_data:
-    site = json.load(json_data)[nom]
+    all = json.load(json_data)
+    site = all[nom]
+    if "fiab" in all:
+        site["fiab"] = all["fiab"]
 
 # les bâtiments
 for i in [1]:
     nomBat = '{}_{}'.format(nom,i)
     with open('{}.json'.format(nomBat), encoding=encoding) as json_data:
-        site[nomBat] = json.load(json_data)[nomBat]
+        all = json.load(json_data)
+        site[nomBat] = all[nomBat]
+        if "fiab" in all:
+            site[nomBat]["fiab"] = all["fiab"]
 
 site_full = "SITE_{}.json".format(nom)
 with open(site_full, "w", encoding=encoding) as f:
@@ -22,7 +28,7 @@ with open(site_full, "w", encoding=encoding) as f:
 nb = 0
 batk = []
 for k in site:
-    if "site" not in k.lower() :
+    if nom.lower() in k.lower() :
         nb+=1
         batk.append(k)
         
