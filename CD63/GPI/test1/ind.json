@@ -1,0 +1,22 @@
+[
+    {
+        "s_ph": 24.73,
+        "sch_ph": 22.26,
+        "%ouv": 95,
+        "%sdis": 8,
+        "%occ": 70.0,
+        "%occ_l": 100,
+        "nom": "Centre Pierre BOUCHAUDY",
+        "code": "63000_CLE41_1"
+    },
+    {
+        "s_ph": 40.67,
+        "sch_ph": 23.1,
+        "%ouv": 95,
+        "%sdis": 36,
+        "%occ": 81.0,
+        "%occ_l": "NAN",
+        "nom": "MDS Les Martres de Veyre",
+        "code": "63730_MAR01_1"
+    }
+]
