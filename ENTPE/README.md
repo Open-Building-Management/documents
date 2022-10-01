@@ -1,4 +1,4 @@
- Dans les circuits à courant alternatif triphasé, on considère les trois types de puissances que nous avons déjà rencontrées en monophasé :
+ Dans les circuits à courant alternatif triphasé, on considère les trois types de puissances qu'on rencontre en monophasé :
 
  - la puissance active ou réelle (P) ;
  - la puissance réactive (Q) ;
