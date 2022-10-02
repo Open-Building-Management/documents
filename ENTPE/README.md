@@ -11,17 +11,11 @@ La puissance réactive ne consomme pas d'énergie, mais n'effectue aucun travail
 
 La puissance apparente est la puissance totale fournie à la charge. Elle se mesure en voltampères (VA) et correspond à la somme vectorielle de la puissance active et de la puissance réactive du circuit.
 
-L'équation suivante traduit cet énoncé de façon mathématique :
-
-![image](https://user-images.githubusercontent.com/43913055/193457553-afc8a076-7829-4eed-82db-7bad5ffc7c8d.png)
-
 # Calcul des puissances
 
-Un récepteur triphasé n'est autre que trois récepteurs monophasés que l'on a branchés de façon particulière, étoile ou triangle, selon la source qui l'alimente.
+Un récepteur triphasé n'est autre que trois récepteurs monophasés qui fonctionnenet indépendamment les uns des autres et que l'on a branchés de façon particulière, étoile ou triangle, selon la source qui l'alimente.
 
 La puissance d'un récepteur triphasé se détermine donc comme en monophasé pour chacun des récepteurs élémentaires.
-
-Les récepteurs élémentaires fonctionnent indépendamment les uns des autres, leur puissance active et réactive vont donc s'additionner.
 
 ## Puissance active ou réelle 
 
