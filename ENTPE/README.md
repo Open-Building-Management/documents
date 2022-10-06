@@ -1,3 +1,5 @@
+ https://myelectrical.com/notes/entryid/172/three-phase-power-simplified
+ 
  Dans les circuits à courant alternatif triphasé, on retrouve les trois types de puissances qu'on rencontre en monophasé :
 
  - la puissance active ou réelle (P) ;
